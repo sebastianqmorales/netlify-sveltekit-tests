@@ -48,7 +48,7 @@
 		padding-bottom: 10px;
 		border: 1px solid #fe7b43;
 		border-radius: 10px;
-		background-image: url('$lib/logos/Container-Background.svg');
+		/* background-image: url('$lib/logos/Container-Background.svg'); */
 	}
 	.button {
 		background-color: #ff4d00;
