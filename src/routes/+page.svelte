@@ -8,11 +8,11 @@
 
 <Header />
 <div class="container">
-	<section class="section gradient mt-5">
-		<CustomerSegment />
-	</section>
 	<section class="section flipped-gradient mt-5">
 		<Features />
+	</section>
+	<section class="section gradient mt-5">
+		<CustomerSegment />
 	</section>
 	<Cta />
 </div>
