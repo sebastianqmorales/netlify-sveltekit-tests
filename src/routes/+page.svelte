@@ -4,10 +4,14 @@
 	import CustomerSegment from '$lib/components/customersegment.svelte';
 	import Features from '$lib/components/features.svelte';
 	import Cta from '$lib/components/emailcta.svelte';
+	import Problems from '../lib/components/problems.svelte';
 </script>
 
 <Header />
 <div class="container">
+	<section class="section gradient mt-5">
+		<Problems />
+	</section>
 	<section class="section gradient mt-5">
 		<Features />
 	</section>
