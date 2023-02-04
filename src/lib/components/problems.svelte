@@ -1,7 +1,17 @@
 <script>
+	import Typewriter from 'svelte-typewriter';
 	import creator from '$lib/icons/creator.svg';
 	import user from '$lib/icons/user.svg';
 	import handshake1 from '$lib/icons/hand-shake-1.svg';
+	import { text } from 'svelte/internal';
+
+	const textArray = [
+		'monetization',
+		'what content gets promoted or hidden',
+		'the cut of the profits',
+		'your data and who it is sold to',
+		'your voice and who is allowed to speak'
+	];
 </script>
 
 <div class="container my-6">
@@ -9,12 +19,19 @@
 		<div class="feature-text">
 			<h1>What's the problem?</h1>
 			<h5 class="thirdtext mt-6">Social media companies have too much power.</h5>
-			<h3>Power over monetization</h3>
-			<h3>Power over how many ads we watch</h3>
+
+			<Typewriter mode="loop" interval={20} delay={0}>
+				<h3>Power over monetization</h3>
+				<h3>Power over what content gets promoted or hidden</h3>
+				<h3>Power over the cut of the profits</h3>
+				<h3>Power over your data and who it is sold to</h3>
+				<h3>Power your voice and who is allowed to speak</h3>
+			</Typewriter>
+			<!-- <h3>Power over how many ads we watch</h3>
 			<h3>Power over what content gets promoted or hidden</h3>
 			<h3>Power over the cut of the profits</h3>
 			<h3>Power over your data and who it is sold to</h3>
-			<h3>Power over your voice and who is allowed to speak</h3>
+			<h3>Power over your voice and who is allowed to speak</h3> -->
 		</div>
 	</div>
 </div>
