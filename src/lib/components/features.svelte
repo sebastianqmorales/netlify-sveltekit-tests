@@ -24,11 +24,8 @@
 				</div>
 				<div class="column">
 					<div class="content">
-						<h4>Microtransactions</h4>
-						<p>
-							No ads! You pay for content and can sell it at whatever price you want, starting at 1
-							cent per view!
-						</p>
+						<h4>No Ads</h4>
+						<p>Pay as little as a fraction of a cent to view content.</p>
 					</div>
 				</div>
 			</div>
@@ -40,10 +37,8 @@
 				</div>
 				<div class="column">
 					<div class="content">
-						<h4>Data Dignity</h4>
-						<p>
-							We don't need your data! Own your data and opt into our Data Union program to sell it!
-						</p>
+						<h4>Opt-in data collection</h4>
+						<p>Get compensated for sharing your data, or don't.</p>
 					</div>
 				</div>
 			</div>
