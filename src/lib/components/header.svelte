@@ -1,9 +1,22 @@
+<script>
+	import Typewriter from 'svelte-typewriter';
+</script>
+
 <section class="section is-large">
 	<div class="container is-max-desktop">
 		<div class="heading-text mt-6">Social media by users for users.</div>
+		<div class="is-flex">
+			<div class="heading-description mr-2">Social media</div>
+			<Typewriter mode="loop" interval={20} delay={0}>
+				<div class="heading-description">without the ads</div>
+				<div class="heading-description">that discourages misinformation</div>
+				<div class="heading-description">that respects users' privacy</div>
+				<div class="heading-description">that supports data dignity</div>
+				<div class="heading-description">that gives users control</div>
+			</Typewriter>
+		</div>
 		<div class="heading-description">
-			Cuatex is the digital content marketplace that is “by users, for users.” You own the content
-			you produce, buy the content you enjoy, and control the content you see.
+			You own the content you produce, buy the content you enjoy, and control the content you see.
 		</div>
 		<!-- <div class="read-more my-4">
 			Keep reading to understand how we provide a space for critical thinking without censorship,

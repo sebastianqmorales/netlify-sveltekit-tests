@@ -22,13 +22,13 @@
 
 			<div class="flex-container">
 				<div class="text">Power over</div>
-				<Type writer mode="loop" interval={20} delay={0}>
+				<Typewriter mode="loop" interval={20} delay={0}>
 					<h3>monetization</h3>
 					<h3>what content gets promoted or hidden</h3>
 					<h3>the cut of the profits</h3>
 					<h3>your data and who it is sold to</h3>
 					<h3>your voice and who is allowed to speak</h3>
-				</Type>
+				</Typewriter>
 			</div>
 			<!-- <h3>Power over how many ads we watch</h3>
 			<h3>Power over what content gets promoted or hidden</h3>
@@ -40,9 +40,6 @@
 </div>
 
 <style>
-	.text {
-		font-family: ;
-	}
 	.flex-container {
 		display: flex;
 		align-content: center;
