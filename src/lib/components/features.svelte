@@ -3,16 +3,17 @@
 	import icon2 from '$lib/icons/binary.svg';
 	import icon3 from '$lib/icons/vote.svg';
 	import icon4 from '$lib/icons/venn-diagram.svg';
+	import icon5 from "$lib/icons/user.svg"
+	import icon6 from "$lib/icons/feedEditor2.svg"
 </script>
 
 <div class="container my-6">
 	<div class="content">
 		<div class="feature-text">
-			<p>Fundamental Features</p>
+			<p>Features</p>
 			<h1>A people-first experience.</h1>
 			<h5 class="thirdtext mt-6">
-				Make your perspective heard with our Venn design. Earn money from users directly paying you.
-				Own and monetize your own data!
+				Tools that allow you to easily own your social media experience. 
 			</h5>
 		</div>
 	</div>
@@ -57,7 +58,7 @@
 				</div>
 				<div class="column">
 					<div class="content">
-						<h4>Micropower</h4>
+						<h4>Voting</h4>
 						<p>
 							No AI. We let you tag and censor inappropriate content&mdash;and earn money from it!
 						</p>
@@ -72,10 +73,42 @@
 				</div>
 				<div class="column">
 					<div class="content">
-						<h4>Venn UI</h4>
+						<h4>Content Tags</h4>
 						<p>
 							No echo chambers. Our innovative Venn design encourages easy sharing of unique
 							perspectives.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="columns">
+		<div class="column">
+			<div class="columns">
+				<div class="column is-one-quarter is-one-fifth-mobile">
+					<img class="graphic" src={icon6} alt="icon" />
+				</div>
+				<div class="column">
+					<div class="content">
+						<h4>Algorithm Control</h4>
+						<p>
+							Use the "Feed Editor" to control the content you see, avoid being fed the content that the platforms want you to see.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="column">
+			<div class="columns">
+				<div class="column is-one-quarter is-one-fifth-mobile">
+					<img class="graphic" src={icon5} alt="icon" />
+				</div>
+				<div class="column">
+					<div class="content">
+						<h4>Human Verification</h4>
+						<p>
+							Your credentials incentivize productive and fun discussions. Verification is not for sale.
 						</p>
 					</div>
 				</div>

@@ -1,13 +1,13 @@
 <section class="section is-medium">
 	<div class="container is-max-desktop">
-		<div class="heading-text mt-6">More better content, no ads ever.</div>
+		<div class="heading-text mt-6">Own the internet, own your mind.</div>
 		<div class="heading-description">
-			Cuatex creates economic incentives for sharing unique, valuable and thought-provoking content.
+			Powerful content algorithm, voting, moderation and monetization. Take charge of your feed - and finally control your mind.
 		</div>
-		<div class="read-more my-4">
+		<!-- <div class="read-more my-4">
 			Keep reading to understand how we provide a space for critical thinking without censorship,
 			algorithms or ads.
-		</div>
+		</div> -->
 		<div class="my-5">
 			<form
 				class="is-flex form1 field"
