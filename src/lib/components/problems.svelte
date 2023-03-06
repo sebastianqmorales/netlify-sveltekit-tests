@@ -21,14 +21,23 @@
 			<h5 class="thirdtext mt-6">Social media companies have too much power.</h5>
 
 			<div class="flex-container">
-				<div class="text">Power over</div>
-				<Typewriter mode="loop" interval={20} delay={0}>
-					<h3>monetization</h3>
-					<h3>what content gets promoted or hidden</h3>
-					<h3>the cut of the profits</h3>
-					<h3>your data and who it is sold to</h3>
-					<h3>your voice and who is allowed to speak</h3>
-				</Typewriter>
+				<div class="text">
+					Platforms like Twitter, YouTube and most others have too much control over the platform.
+				</div>
+				<div class="text">
+					They have complete control over the monetization of content, including: how many ads we
+					have to watch what content gets promoted or hidden the cut of the profits that goes to
+					content creators
+				</div>
+				<div>
+					The companies only want money, so they incentivize creating content that gets the most ad
+					views—clickbait garbage that users don't actually enjoy because the platforms just want us
+					to scroll or click the next video, and watch another ad.
+				</div>
+				<div>
+					We're sick of it. So we're giving the power back to the users, because we love the
+					creators and hate the ads.
+				</div>
 			</div>
 			<!-- <h3>Power over how many ads we watch</h3>
 			<h3>Power over what content gets promoted or hidden</h3>
@@ -42,7 +51,15 @@
 <style>
 	.flex-container {
 		display: flex;
-		align-content: center;
+		flex-direction: column;
+		gap: 2rem;
+		padding-left: 20%;
+		padding-right: 20%;
+		justify-content: center;
+	}
+
+	.flex-container > div {
+		font-weight: 500;
 	}
 	.grid-container {
 		display: grid;

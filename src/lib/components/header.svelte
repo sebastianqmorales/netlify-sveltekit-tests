@@ -7,7 +7,7 @@
 		<div class="heading-text mt-6">Social media by users for users.</div>
 		<div class="is-flex">
 			<div class="heading-description mr-2">Social media</div>
-			<Typewriter mode="loop" interval={20} delay={0}>
+			<Typewriter mode="loop" interval={90} delay={10}>
 				<div class="heading-description">without the ads</div>
 				<div class="heading-description">that discourages misinformation</div>
 				<div class="heading-description">that respects users' privacy</div>
